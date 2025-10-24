@@ -1,0 +1,18 @@
+@charset "UTF-8";
+#container{
+    background-color: chocolate;
+    width: 600px;
+    margin: auto;
+}
+header{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3#iano{
+   margin-top: 10px;
+}
+#imagem01{
+    text-align: center;
+}
