@@ -1,36 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<link rel="stylesheet" href="style.css">
 <body>
     <header>
         <h1>Verificador de idade</h1>
     </header>
-    <main id="container">
-        <section>
-            <form action="##.php">
-                <fieldset>
-                    <legend>Dados</legend>
-                        <h3 id="iano0">Ano: (<span id="iano1">0000</span>)</h3>
-                        <label for="naci">Data de Nascimento</label>
-                        <input type="number" name="ida1" id="naci"><br>
-                        <input type="radio" name="nsex" id="imas" checked>
-                        <label for="imas">Masculino</label><br>
-                         <input type="radio" name="nsex" id="ifem">
-                         <label for="ifem"> Feminino</label><br>
-                         <button onclick="buscador()">Buscar</button>
-                </fieldset>
-            </form>
-            <h2 id="reult">clique o botão acima</h2>
-        </section>
-        <picture id="imagem01">
-            <P>aqui vai a imgem</P>
-        </picture>
-    </main>
-    <script src="script.js"></script>
+    <section>
+        <div>
+            <p>
+                <label for="inac">ano de nacimento</label>
+                <input type="number" name="nac" id="inac">
+            </p>
+            <p>
+                sexo:
+                <input type="radio" name="nsex" id="macul">
+                <label for="macul">Masculino</label>
+            </p>
+            <p>
+                <button onclick="verificador()">verificar</button>
+            </p>
+        </div>
+        <div>
+            <h3 id="result">Preencha o campo acima</h3>
+            compo da imagem
+        </div>
+    </section>
+    <footer>
+        <p>Por WagonezWGZ</p>
+    </footer>
+    <script src="docum.js"></script>
 </body>
 </html>

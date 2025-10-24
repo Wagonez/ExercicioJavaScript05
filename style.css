@@ -1,18 +1,16 @@
-@charset "UTF-8";
-#container{
-    background-color: chocolate;
+@charset "utf-8";
+*{
+    font-size: 1.05em;
+}
+h1{
+    text-align: center;
+}
+section{
+    background-color: brown;
     width: 600px;
     margin: auto;
+    padding: 30px;
 }
-header{
-    text-align: center;
-}
-h2{
-    text-align: center;
-}
-h3#iano{
-   margin-top: 10px;
-}
-#imagem01{
+footer{
     text-align: center;
 }
