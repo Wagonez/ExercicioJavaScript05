@@ -38,7 +38,7 @@ function verificador(){
         }else if(idade>40 && idade<=120){
             document.getElementById('imagem1').innerHTML=`<img src='imagens/mulher-idosa.png' alt='mulher idosa'>`
         }else if(idade>120 && dnaci!=0){
-            document.getElementById('imagem1').innerHTML=`<img src='imagens/caveira.png' alt='caveira'>`
+            document.getElementById('imagem1').innerHTML=`<img src='imagens/caveira.png' alt=''>`
         }
     }
     if(dnaci>agora || dnaci==0){
