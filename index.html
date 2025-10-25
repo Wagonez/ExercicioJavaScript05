@@ -13,21 +13,25 @@
     <section>
         <div>
             <p>
-                <label for="inac">ano de nacimento</label>
+                <label for="inac">Ano de nacimento</label>
                 <input type="number" name="nac" id="inac">
             </p>
             <p>
                 sexo:
-                <input type="radio" name="nsex" id="macul">
+                <input type="radio" name="nsex" id="macul" checked>
                 <label for="macul">Masculino</label>
+                <input type="radio" name="nsex" id="femin">
+                <label for="femin">Feminino</label>
             </p>
             <p>
                 <button onclick="verificador()">verificar</button>
             </p>
         </div>
-        <div>
+        <div id="imgC">
             <h3 id="result">Preencha o campo acima</h3>
-            compo da imagem
+            <picture id="imagem1">
+
+            </picture>
         </div>
     </section>
     <footer>

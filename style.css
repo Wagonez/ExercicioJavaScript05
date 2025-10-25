@@ -1,16 +1,21 @@
 @charset "utf-8";
 *{
-    font-size: 1.05em;
+   font-family: Arial, Helvetica, sans-serif; 
 }
 h1{
     text-align: center;
+    margin: 0px;
 }
 section{
     background-color: brown;
-    width: 600px;
+    width: 400px;
     margin: auto;
-    padding: 30px;
+    padding: 10px;
 }
 footer{
     text-align: center;
+    margin:0px;
+}
+#imgC{
+ text-align: center;
 }
