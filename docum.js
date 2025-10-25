@@ -41,9 +41,10 @@ function verificador(){
             document.getElementById('imagem1').innerHTML=`<img src='imagens/caveira.png' alt=''>`
         }
     }
-    if(dnaci>agora || dnaci==0){
+    if(dnaci>agora || dnaci==0 ||dnaci==agora){
         window.alert('Data invalida tente novamente')
         document.getElementById("result").innerHTML=`<span style='color:red;background:black;'>Data ivalida: Tente Novamente</span>`;
+        document.getElementById('imagem1').innerHTML=`<img src='imagens/caveira.png' alt='' style='display:none;'>`
     }else{
         document.getElementById('result').innerHTML=`Detectado ${gene} de ${idade} anos`
     }
